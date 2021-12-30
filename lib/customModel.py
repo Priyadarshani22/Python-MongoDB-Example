@@ -161,7 +161,7 @@ class CustomTableModel(QtCore.QAbstractTableModel):
         return True
 
 
-class ProfilePictureDelegate(QtWidgets.QStyledItemDelegate):
+class ProfileiconDelegate(QtWidgets.QStyledItemDelegate):
     """
     This will open QFileDialog to select image
     """
